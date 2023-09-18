@@ -32,12 +32,12 @@ html {
 }
 
 body {
-    padding-block: 3rem 1.5rem;
+    padding-block: 3rem;
     background-color: var(--primary-700);
     background-image: url(images/bg-mobile.svg);
     background-position: right top;
-    background-repeat: no-repeat;
-  /*  background: url(images/bg-mobile.svg) top; */
+    background-repeat: no-repeat; 
+    min-height: 100vh;
 }
 
 .header {
@@ -158,7 +158,6 @@ body {
        justify-content: center;
        background-image: url(images/bg-desktop.svg);
        background-size: cover;
-       background-position: -15rem -15rem;
        background-repeat: no-repeat;
     }
     .all {
@@ -190,8 +189,8 @@ body {
         justify-content: flex-end;
         padding-right: 20px;
         position: fixed;
-        bottom: 1rem;
-        right: 10%;
+        bottom: 5%;
+        left: 80%;
      }
     .main__illustration {
        all: unset;
